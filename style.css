@@ -25,3 +25,8 @@ section ul li {
 .navbar .nav-link {
     color: white !important;
 }
+i:hover {
+    color: #007bff !important;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
