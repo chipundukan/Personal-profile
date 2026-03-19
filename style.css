@@ -30,3 +30,29 @@ i:hover {
     transform: scale(1.2);
     transition: 0.3s;
 }
+/* General Styles */
+body {
+    background-color: white;
+}
+
+/* Navbar shadow on scroll */
+.navbar.shadow {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Hero Section */
+section.text-center {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+}
+
+/* Contact Form */
+#contactForm {
+    max-width: 600px;
+    margin: auto;
+}
