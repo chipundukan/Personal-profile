@@ -139,27 +139,28 @@ body { background-color: white; }
 </section>
 
 <!-- Contact -->
-<section id="contact" class="container p-4">
-    <h2>Contact Me</h2>
+<form id="contactForm">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
 
-    <form>
-        <div class="mb-3">
-            <label class="form-label">Name</label>
-            <input type="text" class="form-control" placeholder="Enter your name">
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+    </div>
 
-        <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input type="email" class="form-control" placeholder="Enter your email">
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea id="message" class="form-control" rows="3" required></textarea>
+    </div>
 
-        <div class="mb-3">
-            <label class="form-label">Message</label>
-            <textarea class="form-control" rows="3"></textarea>
-        </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
 
-        <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
+
+
+<p id="formOutput" class="text-center mt-3"></p>
 </section>
 
 
