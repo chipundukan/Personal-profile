@@ -1,5 +1,9 @@
+/* =========================
+   GENERAL STYLES
+========================= */
 body {
     font-family: Arial, sans-serif;
+    background-color: white;
 }
 
 h2 {
@@ -22,37 +26,46 @@ section ul li {
     margin: 5px 0;
     border-left: 5px solid #007bff;
 }
+
+/* =========================
+   NAVBAR STYLES
+========================= */
 .navbar .nav-link {
     color: white !important;
 }
-i:hover {
-    color: #007bff !important;
-    transform: scale(1.2);
-    transition: 0.3s;
-}
-/* General Styles */
-body {
-    background-color: white;
-}
 
-/* Navbar shadow on scroll */
 .navbar.shadow {
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
-/* Hero Section */
+/* =========================
+   HERO SECTION
+========================= */
 section.text-center {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-/* Card Styling */
+/* =========================
+   CARD STYLING
+========================= */
 .card {
     border-radius: 10px;
 }
 
-/* Contact Form */
+/* =========================
+   CONTACT FORM
+========================= */
 #contactForm {
     max-width: 600px;
     margin: auto;
+}
+
+/* =========================
+   ICON HOVER EFFECTS
+========================= */
+i:hover {
+    color: #007bff !important;
+    transform: scale(1.2);
+    transition: 0.3s;
 }
